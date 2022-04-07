@@ -1,0 +1,10 @@
+
+<div>
+    <h1>Dog Component</h1>
+    <hr>
+</div>
+    <button (click)="showDogPic()">Show Dog !</button>
+<div *ngIf="showDog">
+    <img src="{{dogDetails.message}}" alt="">
+
+</div>
